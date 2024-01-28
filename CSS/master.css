@@ -370,6 +370,7 @@ footer {
 .match-list-content img {
     height: 100%;
     margin: 0 2px;
+    margin-right: 10px;
     border-radius: 50%;
     border: 2px solid rgba(0 0 0);
 }
