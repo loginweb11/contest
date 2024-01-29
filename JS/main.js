@@ -58,7 +58,12 @@ let Massageclosebtnfull = document.querySelector("#Massageclosebtnfull");
 let addMassageBox = document.querySelector("#addMassageBox");
 let addMassage = document.querySelector("#addMassage");
 let newSign = document.querySelector("#new");
+let MatchHistory = document.querySelector("#MatchHistory");
+let CupBtn = document.querySelector("#CupBtn");
 
+CupBtn.onclick = function () {
+    MatchHistory.style.display = "block";
+}
 if (window.localStorage.getItem("web - mode") === "dark") {
     darkHref.href = "CSS/master - dark.css";
 } else if (window.localStorage.getItem("web - mode") === "light") {
@@ -102,6 +107,7 @@ logo.onclick = function () {
     profileBox.style.display = "none";
     matchList.style.display = "none";
     playersList.style.display = "none";
+    MatchHistory.style.display = "none";
 };
 
 LoginBtn.onclick = function () {
@@ -445,6 +451,7 @@ ProfileBtn.onclick = function () {
     profileBox.style.display = "flex";
     matchList.style.display = "none";
     playersList.style.display = "none";
+    MatchHistory.style.display = "none";
 };
 
 ProfileMassageName.value = window.localStorage.getItem("userName");
