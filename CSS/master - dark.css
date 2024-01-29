@@ -137,6 +137,7 @@ footer {
     font-size: 1.1em;
     border-radius: 4px;
     margin: 20px 0;
+    height: 45px;
     padding: 5px 20px;
 
 }
@@ -401,6 +402,7 @@ footer {
     margin-top: -10px;
     border-radius: 4px;
     margin-bottom: 10px;
+    z-index: 999;
 }
 
 .opition-button {
@@ -429,6 +431,8 @@ footer {
     overflow-y: scroll;
     overflow-x: hidden;
     z-index: -1;
+    background-color: rgba(18, 18, 18);
+    z-index: 99;
 }
 
 .match-page-text {
@@ -737,4 +741,53 @@ footer {
     background-color: transparent;
     top: 0;
     z-index: -1;
+}
+
+.CupBtn {
+    height: 45px;
+    border: none;
+    background-color: rgba(100 0 255);
+    width: 50px;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+
+.MatchHistoryText {
+    color: white;
+    width: 95%;
+    background-color: rgba(30 30 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 40px;
+    height: 40px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#MatchHistory .box {
+    height: 100px;
+    border-radius: 4px;
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+    padding-right: 20px;
+    color: white;
+}
+
+#MatchHistory .box img {
+    height: 100%;
+    border: 2px solid white;
+    border-radius: inherit;
 }
