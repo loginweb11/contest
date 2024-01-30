@@ -1,4 +1,4 @@
-let NewSign = "NewSign:v2";
+let NewSign = "NewSign:v3";
 let zainListLost = document.querySelector("#zainListLost");
 let zainListWin = document.querySelector("#zainListWin");
 let hazemListWin = document.querySelector("#hazemListWin");
